@@ -23,6 +23,7 @@ PYPI = {
 }
 VOICE_VERSION = '0.2.0'
 COMMAND_VERSION = '0.1.0'
+COMMAND_RELEASE = 'v0.2'   # the GitHub release that carries the wheel
 OLLAMA_TAG = 'v0.40.14'
 
 
@@ -60,7 +61,7 @@ def main():
     voice_whl = next((DEV / 'voice-hold' / 'engine' / 'dist').glob('voice_hold_engine-*-py3-none-any.whl'))
     cmd_whl = next((DEV / 'command-hold' / 'engine' / 'dist').glob('command_hold_engine-*-py3-none-any.whl'))
     voice_url = f'https://github.com/d101c/voice-hold/releases/download/v{VOICE_VERSION[:-2]}/{voice_whl.name}'
-    cmd_url = f'https://github.com/d101c/command-hold/releases/download/v{COMMAND_VERSION[:-2]}/{cmd_whl.name}'
+    cmd_url = f'https://github.com/d101c/command-hold/releases/download/{COMMAND_RELEASE}/{cmd_whl.name}'
 
     wheels = {}
     for tag in TAGS:

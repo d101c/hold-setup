@@ -46,9 +46,9 @@
    "command": [
     {
      "name": "command_hold_engine-0.1.0-py3-none-any.whl",
-     "url": "https://github.com/d101c/command-hold/releases/download/v0.1/command_hold_engine-0.1.0-py3-none-any.whl",
-     "size": 27950,
-     "sha256": "4ce8b12bf0c511e30c90c03fdb71d59b5afd67500a54e176151af85cd37dc9d1"
+     "url": "https://github.com/d101c/command-hold/releases/download/v0.2/command_hold_engine-0.1.0-py3-none-any.whl",
+     "size": 28923,
+     "sha256": "0356596322f2d46a70e2a57d6a896cea0c4ecb7ac2de2dbfc1c54a199cfa8ddc"
     },
     {
      "name": "dbus_fast-5.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
@@ -94,9 +94,9 @@
    "command": [
     {
      "name": "command_hold_engine-0.1.0-py3-none-any.whl",
-     "url": "https://github.com/d101c/command-hold/releases/download/v0.1/command_hold_engine-0.1.0-py3-none-any.whl",
-     "size": 27950,
-     "sha256": "4ce8b12bf0c511e30c90c03fdb71d59b5afd67500a54e176151af85cd37dc9d1"
+     "url": "https://github.com/d101c/command-hold/releases/download/v0.2/command_hold_engine-0.1.0-py3-none-any.whl",
+     "size": 28923,
+     "sha256": "0356596322f2d46a70e2a57d6a896cea0c4ecb7ac2de2dbfc1c54a199cfa8ddc"
     },
     {
      "name": "dbus_fast-5.2.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
@@ -142,9 +142,9 @@
    "command": [
     {
      "name": "command_hold_engine-0.1.0-py3-none-any.whl",
-     "url": "https://github.com/d101c/command-hold/releases/download/v0.1/command_hold_engine-0.1.0-py3-none-any.whl",
-     "size": 27950,
-     "sha256": "4ce8b12bf0c511e30c90c03fdb71d59b5afd67500a54e176151af85cd37dc9d1"
+     "url": "https://github.com/d101c/command-hold/releases/download/v0.2/command_hold_engine-0.1.0-py3-none-any.whl",
+     "size": 28923,
+     "sha256": "0356596322f2d46a70e2a57d6a896cea0c4ecb7ac2de2dbfc1c54a199cfa8ddc"
     },
     {
      "name": "dbus_fast-5.2.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
