@@ -1,0 +1,196 @@
+{
+ "schema": 1,
+ "generated": "2026-11-03",
+ "python": {
+  "tags": [
+   "cp312",
+   "cp313",
+   "cp314"
+  ],
+  "min": "3.12"
+ },
+ "wheels": {
+  "cp312": {
+   "voice": [
+    {
+     "name": "voice_hold_engine-0.2.0-py3-none-any.whl",
+     "url": "https://github.com/d101c/voice-hold/releases/download/v0.2/voice_hold_engine-0.2.0-py3-none-any.whl",
+     "size": 29151,
+     "sha256": "099426c2058ec573d67f77ac392d817a8bfd62d92b3bf4e01d0b81727846e0bd"
+    },
+    {
+     "name": "sherpa_onnx-2.0.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/32/3f/b47ec3a66e53bb6a70391b27acc9086bba8b56986b365f239e4426868efe/sherpa_onnx-2.0.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+     "size": 4256114,
+     "sha256": "c7780d8af6921c18e8e920376b32d7707294e5cd3838f4762cf746ab919bcc40"
+    },
+    {
+     "name": "sherpa_onnx_core-2.0.1-py3-none-manylinux2014_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/9a/4e/d946cc081864c8c242e787a73dd2ea61f861445f3d4207787d873e4dc65d/sherpa_onnx_core-2.0.1-py3-none-manylinux2014_x86_64.whl",
+     "size": 10544878,
+     "sha256": "f4ee0ab91c4ae596e0e49d7de32522a946295e038a652f1c1884d89014ee4ec2"
+    },
+    {
+     "name": "numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/43/a3/c799c62e19c337e6d3770b08e475887fb30ce8477d3c09efca6b2f0228a6/numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+     "size": 16727283,
+     "sha256": "fbde6962867ee75b48b0ee29b2b9372ec5d617799dbaf38e82dc0596f2f7738a"
+    },
+    {
+     "name": "dbus_fast-5.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/ac/d8/528ce993791bc06fb5bc8b8abef87f49240945302e858a1d6894073e7c54/dbus_fast-5.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "size": 902179,
+     "sha256": "236327794a5957238e83c363809903b6a47d1f4fecd64831a29fd09458d90f0e"
+    }
+   ],
+   "command": [
+    {
+     "name": "command_hold_engine-0.1.0-py3-none-any.whl",
+     "url": "https://github.com/d101c/command-hold/releases/download/v0.1/command_hold_engine-0.1.0-py3-none-any.whl",
+     "size": 27950,
+     "sha256": "4ce8b12bf0c511e30c90c03fdb71d59b5afd67500a54e176151af85cd37dc9d1"
+    },
+    {
+     "name": "dbus_fast-5.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/ac/d8/528ce993791bc06fb5bc8b8abef87f49240945302e858a1d6894073e7c54/dbus_fast-5.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "size": 902179,
+     "sha256": "236327794a5957238e83c363809903b6a47d1f4fecd64831a29fd09458d90f0e"
+    }
+   ]
+  },
+  "cp313": {
+   "voice": [
+    {
+     "name": "voice_hold_engine-0.2.0-py3-none-any.whl",
+     "url": "https://github.com/d101c/voice-hold/releases/download/v0.2/voice_hold_engine-0.2.0-py3-none-any.whl",
+     "size": 29151,
+     "sha256": "099426c2058ec573d67f77ac392d817a8bfd62d92b3bf4e01d0b81727846e0bd"
+    },
+    {
+     "name": "sherpa_onnx-2.0.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/3d/91/b63d3278c0a05a73c6c66350556b2b8824958d213da47421d6cb4f79cf6c/sherpa_onnx-2.0.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+     "size": 4255848,
+     "sha256": "a52606059a84495374bbd752c8de2b36d3f018cd715eddac559686b4e6868789"
+    },
+    {
+     "name": "sherpa_onnx_core-2.0.1-py3-none-manylinux2014_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/9a/4e/d946cc081864c8c242e787a73dd2ea61f861445f3d4207787d873e4dc65d/sherpa_onnx_core-2.0.1-py3-none-manylinux2014_x86_64.whl",
+     "size": 10544878,
+     "sha256": "f4ee0ab91c4ae596e0e49d7de32522a946295e038a652f1c1884d89014ee4ec2"
+    },
+    {
+     "name": "numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/da/24/3bd070f3269dc609d8f26b2643f62ef91bb415841c0b294805aaf7fe06da/numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+     "size": 16718044,
+     "sha256": "6ffa07666f8da0eef81d149934a626d0d95fbd6838432a33e66245423a9062c0"
+    },
+    {
+     "name": "dbus_fast-5.2.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/7c/8d/8faf59c288feabba6545998de9c7748c8f995ec953a7b6a07e2c7f84cba4/dbus_fast-5.2.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "size": 896495,
+     "sha256": "da7835ccc6e8cb2b54516558097156da6dbf6636c27033b427135bad693317fb"
+    }
+   ],
+   "command": [
+    {
+     "name": "command_hold_engine-0.1.0-py3-none-any.whl",
+     "url": "https://github.com/d101c/command-hold/releases/download/v0.1/command_hold_engine-0.1.0-py3-none-any.whl",
+     "size": 27950,
+     "sha256": "4ce8b12bf0c511e30c90c03fdb71d59b5afd67500a54e176151af85cd37dc9d1"
+    },
+    {
+     "name": "dbus_fast-5.2.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/7c/8d/8faf59c288feabba6545998de9c7748c8f995ec953a7b6a07e2c7f84cba4/dbus_fast-5.2.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "size": 896495,
+     "sha256": "da7835ccc6e8cb2b54516558097156da6dbf6636c27033b427135bad693317fb"
+    }
+   ]
+  },
+  "cp314": {
+   "voice": [
+    {
+     "name": "voice_hold_engine-0.2.0-py3-none-any.whl",
+     "url": "https://github.com/d101c/voice-hold/releases/download/v0.2/voice_hold_engine-0.2.0-py3-none-any.whl",
+     "size": 29151,
+     "sha256": "099426c2058ec573d67f77ac392d817a8bfd62d92b3bf4e01d0b81727846e0bd"
+    },
+    {
+     "name": "sherpa_onnx-2.0.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/f1/cd/b4b4acf8dec04661bd616f430d76a4043734dc6acf1888be354d1ced58d3/sherpa_onnx-2.0.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+     "size": 4256828,
+     "sha256": "634b9dbdc7f789efa4a3273f8fb94ab0480c9cd5e5be0ca2d9a7f0f090c7da3d"
+    },
+    {
+     "name": "sherpa_onnx_core-2.0.1-py3-none-manylinux2014_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/9a/4e/d946cc081864c8c242e787a73dd2ea61f861445f3d4207787d873e4dc65d/sherpa_onnx_core-2.0.1-py3-none-manylinux2014_x86_64.whl",
+     "size": 10544878,
+     "sha256": "f4ee0ab91c4ae596e0e49d7de32522a946295e038a652f1c1884d89014ee4ec2"
+    },
+    {
+     "name": "numpy-2.5.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/16/d5/928078d2b28f26829b138b4a6c3980045022fb409f570657a224ae60ef4e/numpy-2.5.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+     "size": 16721710,
+     "sha256": "d549420b8858885cea8838a727842249218b9c1da24dd517e25c9c7a948310a3"
+    },
+    {
+     "name": "dbus_fast-5.2.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/3b/a7/ec412544064624f12681113debf1a991293e9632bd0125a03a8e652d00e8/dbus_fast-5.2.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "size": 900696,
+     "sha256": "7c66b094e96c221b877ccd6627bc3b9d808ac8317a8f6adc1cb2a0223e7d64e2"
+    }
+   ],
+   "command": [
+    {
+     "name": "command_hold_engine-0.1.0-py3-none-any.whl",
+     "url": "https://github.com/d101c/command-hold/releases/download/v0.1/command_hold_engine-0.1.0-py3-none-any.whl",
+     "size": 27950,
+     "sha256": "4ce8b12bf0c511e30c90c03fdb71d59b5afd67500a54e176151af85cd37dc9d1"
+    },
+    {
+     "name": "dbus_fast-5.2.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "url": "https://files.pythonhosted.org/packages/3b/a7/ec412544064624f12681113debf1a991293e9632bd0125a03a8e652d00e8/dbus_fast-5.2.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+     "size": 900696,
+     "sha256": "7c66b094e96c221b877ccd6627bc3b9d808ac8317a8f6adc1cb2a0223e7d64e2"
+    }
+   ]
+  }
+ },
+ "voice": {
+  "version": "0.2.0",
+  "module": "voice_hold_engine",
+  "bus_name": "org.griffit.VoiceHold",
+  "models": [
+   {
+    "name": "sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8.tar.bz2",
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8.tar.bz2",
+    "size": 487170055,
+    "sha256": "5793d0fd397c5778d2cf2126994d58e9d56b1be7c04d13c7a15bb1b4eafb16bf",
+    "extract": true,
+    "dir": "sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8"
+   },
+   {
+    "name": "silero_vad.onnx",
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx",
+    "size": 643854,
+    "sha256": "9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6",
+    "extract": false
+   }
+  ]
+ },
+ "command": {
+  "version": "0.1.0",
+  "module": "command_hold_engine",
+  "bus_name": "org.griffit.CommandHold"
+ },
+ "llm": {
+  "ollama": {
+   "name": "ollama-linux-amd64.tar.zst",
+   "url": "https://github.com/ollama/ollama/releases/download/v0.40.14/ollama-linux-amd64.tar.zst",
+   "size": 1525335029,
+   "sha256": "993e83d08c3d13d17c55009a3e2664c8a25445e644aec3a68bef5abb6abce67d",
+   "version": "v0.40.14"
+  },
+  "model": "qwen3:1.7b",
+  "model_size": 1400000000
+ }
+}
