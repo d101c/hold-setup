@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-03",
+ "generated": "2026-11-10",
  "python": {
   "tags": [
    "cp312",
@@ -13,10 +13,10 @@
   "cp312": {
    "voice": [
     {
-     "name": "voice_hold_engine-0.2.0-py3-none-any.whl",
-     "url": "https://github.com/d101c/voice-hold/releases/download/v0.2/voice_hold_engine-0.2.0-py3-none-any.whl",
-     "size": 29151,
-     "sha256": "099426c2058ec573d67f77ac392d817a8bfd62d92b3bf4e01d0b81727846e0bd"
+     "name": "voice_hold_engine-0.3.1-py3-none-any.whl",
+     "url": "https://github.com/d101c/voice-hold/releases/download/v0.4/voice_hold_engine-0.3.1-py3-none-any.whl",
+     "size": 33066,
+     "sha256": "0b7d57dc91ed12c21fb0ab44dbfd9e4bc37f3edadfad14f79839a408af674412"
     },
     {
      "name": "sherpa_onnx-2.0.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
@@ -47,10 +47,10 @@
   "cp313": {
    "voice": [
     {
-     "name": "voice_hold_engine-0.2.0-py3-none-any.whl",
-     "url": "https://github.com/d101c/voice-hold/releases/download/v0.2/voice_hold_engine-0.2.0-py3-none-any.whl",
-     "size": 29151,
-     "sha256": "099426c2058ec573d67f77ac392d817a8bfd62d92b3bf4e01d0b81727846e0bd"
+     "name": "voice_hold_engine-0.3.1-py3-none-any.whl",
+     "url": "https://github.com/d101c/voice-hold/releases/download/v0.4/voice_hold_engine-0.3.1-py3-none-any.whl",
+     "size": 33066,
+     "sha256": "0b7d57dc91ed12c21fb0ab44dbfd9e4bc37f3edadfad14f79839a408af674412"
     },
     {
      "name": "sherpa_onnx-2.0.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
@@ -81,10 +81,10 @@
   "cp314": {
    "voice": [
     {
-     "name": "voice_hold_engine-0.2.0-py3-none-any.whl",
-     "url": "https://github.com/d101c/voice-hold/releases/download/v0.2/voice_hold_engine-0.2.0-py3-none-any.whl",
-     "size": 29151,
-     "sha256": "099426c2058ec573d67f77ac392d817a8bfd62d92b3bf4e01d0b81727846e0bd"
+     "name": "voice_hold_engine-0.3.1-py3-none-any.whl",
+     "url": "https://github.com/d101c/voice-hold/releases/download/v0.4/voice_hold_engine-0.3.1-py3-none-any.whl",
+     "size": 33066,
+     "sha256": "0b7d57dc91ed12c21fb0ab44dbfd9e4bc37f3edadfad14f79839a408af674412"
     },
     {
      "name": "sherpa_onnx-2.0.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
@@ -114,7 +114,7 @@
   }
  },
  "voice": {
-  "version": "0.2.0",
+  "version": "0.3.1",
   "module": "voice_hold_engine",
   "bus_name": "org.griffit.VoiceHold",
   "models": [

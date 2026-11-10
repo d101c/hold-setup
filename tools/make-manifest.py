@@ -21,7 +21,8 @@ PYPI = {
     'numpy': '2.5.4',
     'dbus-fast': '5.2.0',
 }
-VOICE_VERSION = '0.2.0'
+VOICE_VERSION = '0.3.1'
+VOICE_RELEASE = 'v0.4'
 
 
 def pypi(name, version):
@@ -56,7 +57,7 @@ def main():
     from voice_hold_engine import models as vm
     urls = {n: pypi(n, v) for n, v in PYPI.items()}
     voice_whl = next((DEV / 'voice-hold' / 'engine' / 'dist').glob('voice_hold_engine-*-py3-none-any.whl'))
-    voice_url = f'https://github.com/d101c/voice-hold/releases/download/v{VOICE_VERSION[:-2]}/{voice_whl.name}'
+    voice_url = f'https://github.com/d101c/voice-hold/releases/download/{VOICE_RELEASE}/{voice_whl.name}'
 
     wheels = {}
     for tag in TAGS:
