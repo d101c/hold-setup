@@ -21,8 +21,8 @@ PYPI = {
     'numpy': '2.5.4',
     'dbus-fast': '5.2.0',
 }
-VOICE_VERSION = '0.3.1'
-VOICE_RELEASE = 'v0.4'
+VOICE_VERSION = '0.4.0'
+VOICE_RELEASE = 'v0.5'
 
 
 def pypi(name, version):
@@ -56,7 +56,7 @@ def main():
     sys.path.insert(0, str(DEV / 'voice-hold' / 'engine' / 'src'))
     from voice_hold_engine import models as vm
     urls = {n: pypi(n, v) for n, v in PYPI.items()}
-    voice_whl = next((DEV / 'voice-hold' / 'engine' / 'dist').glob('voice_hold_engine-*-py3-none-any.whl'))
+    voice_whl = DEV / 'voice-hold' / 'engine' / 'dist' / f'voice_hold_engine-{VOICE_VERSION}-py3-none-any.whl'
     voice_url = f'https://github.com/d101c/voice-hold/releases/download/{VOICE_RELEASE}/{voice_whl.name}'
 
     wheels = {}
@@ -65,8 +65,9 @@ def main():
             'voice': [local_wheel(voice_whl, voice_url)] + [entry(pick(urls[n], tag)) for n in ('sherpa-onnx', 'sherpa-onnx-core', 'numpy', 'dbus-fast')],
         }
     models = [
-        {'name': vm.ASR_ARCHIVE, 'url': vm.RELEASES + vm.ASR_ARCHIVE, 'size': vm.ASR_ARCHIVE_SIZE,
-         'sha256': vm.ASR_ARCHIVE_SHA256, 'extract': True, 'dir': vm.ASR_NAME},
+        {'name': vm.ASR_NAME + '.tar.bz2', 'url': vm.RELEASES + vm.ASR_NAME + '.tar.bz2',
+         'size': vm.ASR_MODELS[vm.ASR_NAME]['archive_size'], 'sha256': vm.ASR_MODELS[vm.ASR_NAME]['archive_sha256'],
+         'extract': True, 'dir': vm.ASR_NAME},
         {'name': vm.VAD_FILE, 'url': vm.RELEASES + vm.VAD_FILE, 'size': vm.VAD_SIZE,
          'sha256': vm.VAD_SHA256, 'extract': False},
     ]

@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "python": {
   "tags": [
    "cp312",
@@ -13,10 +13,10 @@
   "cp312": {
    "voice": [
     {
-     "name": "voice_hold_engine-0.3.1-py3-none-any.whl",
-     "url": "https://github.com/d101c/voice-hold/releases/download/v0.4/voice_hold_engine-0.3.1-py3-none-any.whl",
-     "size": 33066,
-     "sha256": "0b7d57dc91ed12c21fb0ab44dbfd9e4bc37f3edadfad14f79839a408af674412"
+     "name": "voice_hold_engine-0.4.0-py3-none-any.whl",
+     "url": "https://github.com/d101c/voice-hold/releases/download/v0.5/voice_hold_engine-0.4.0-py3-none-any.whl",
+     "size": 63532,
+     "sha256": "f1a6c9d533ed2fa40e124908c65cfef374a6ced6411f49e5705d4ade00be8cfa"
     },
     {
      "name": "sherpa_onnx-2.0.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
@@ -47,10 +47,10 @@
   "cp313": {
    "voice": [
     {
-     "name": "voice_hold_engine-0.3.1-py3-none-any.whl",
-     "url": "https://github.com/d101c/voice-hold/releases/download/v0.4/voice_hold_engine-0.3.1-py3-none-any.whl",
-     "size": 33066,
-     "sha256": "0b7d57dc91ed12c21fb0ab44dbfd9e4bc37f3edadfad14f79839a408af674412"
+     "name": "voice_hold_engine-0.4.0-py3-none-any.whl",
+     "url": "https://github.com/d101c/voice-hold/releases/download/v0.5/voice_hold_engine-0.4.0-py3-none-any.whl",
+     "size": 63532,
+     "sha256": "f1a6c9d533ed2fa40e124908c65cfef374a6ced6411f49e5705d4ade00be8cfa"
     },
     {
      "name": "sherpa_onnx-2.0.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
@@ -81,10 +81,10 @@
   "cp314": {
    "voice": [
     {
-     "name": "voice_hold_engine-0.3.1-py3-none-any.whl",
-     "url": "https://github.com/d101c/voice-hold/releases/download/v0.4/voice_hold_engine-0.3.1-py3-none-any.whl",
-     "size": 33066,
-     "sha256": "0b7d57dc91ed12c21fb0ab44dbfd9e4bc37f3edadfad14f79839a408af674412"
+     "name": "voice_hold_engine-0.4.0-py3-none-any.whl",
+     "url": "https://github.com/d101c/voice-hold/releases/download/v0.5/voice_hold_engine-0.4.0-py3-none-any.whl",
+     "size": 63532,
+     "sha256": "f1a6c9d533ed2fa40e124908c65cfef374a6ced6411f49e5705d4ade00be8cfa"
     },
     {
      "name": "sherpa_onnx-2.0.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
@@ -114,17 +114,17 @@
   }
  },
  "voice": {
-  "version": "0.3.1",
+  "version": "0.4.0",
   "module": "voice_hold_engine",
   "bus_name": "org.griffit.VoiceHold",
   "models": [
    {
-    "name": "sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8.tar.bz2",
-    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8.tar.bz2",
-    "size": 487170055,
-    "sha256": "5793d0fd397c5778d2cf2126994d58e9d56b1be7c04d13c7a15bb1b4eafb16bf",
+    "name": "sherpa-onnx-nemo-parakeet-tdt-0.6b-ultra-int8.tar.bz2",
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet-tdt-0.6b-ultra-int8.tar.bz2",
+    "size": 487134290,
+    "sha256": "d216b71d7f628b3f2f2a20ee7ead39ff0b075984959eb4bf6ddf8dc8da737c09",
     "extract": true,
-    "dir": "sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8"
+    "dir": "sherpa-onnx-nemo-parakeet-tdt-0.6b-ultra-int8"
    },
    {
     "name": "silero_vad.onnx",
