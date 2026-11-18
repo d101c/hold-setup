@@ -17,3 +17,15 @@ the extension carries a copy (extensions.gnome.org bundles must be
 self-contained).
 
 Regenerate the manifest after a release: `python3 tools/make-manifest.py`.
+
+## Roadmap and issues
+
+Bugs, ideas, planned work and things still to test are tracked in the
+[GitHub issues](https://github.com/d101c/hold-setup/issues); what is planned for
+the next version is grouped in a milestone.
+
+- **Report a bug:** open an issue with your distribution, GNOME Shell version,
+  what you did, what you expected and what happened, plus any error shown by
+  `journalctl -b /usr/bin/gnome-shell`. Problems with the extension itself
+  go to [Voice Hold](https://github.com/d101c/voice-hold/issues).
+- **Suggest an idea:** open an issue that describes what you want to do.
