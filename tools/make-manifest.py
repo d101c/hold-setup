@@ -21,8 +21,8 @@ PYPI = {
     'numpy': '2.5.4',
     'dbus-fast': '5.2.0',
 }
-VOICE_VERSION = '0.4.0'
-VOICE_RELEASE = 'v0.5'
+VOICE_VERSION = '0.5.0'
+VOICE_RELEASE = 'v0.8'
 
 
 def pypi(name, version):
